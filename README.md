@@ -14,6 +14,7 @@ I have uploaded the frontend and backend code. The whole website is dynamic and 
 - run command 'npm install --force' which will download all dependencies and will create node_modules directory
 - now just run "npm start" and project will start running
 
+Note: Please delete package-lock.json file if "npm install --force" don't get the job done!
 
 That's it.
 
