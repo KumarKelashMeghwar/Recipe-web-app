@@ -1,0 +1,44 @@
+.container {
+  margin-top: 50px;
+}
+
+.mainpage {
+  margin-bottom: 50px;
+}
+
+.popular-line {
+  width: 73%;
+  height: 1px;
+  background-color: #d8d8d8;
+}
+
+.line {
+  width: 84%;
+  height: 1px;
+  background-color: #d8d8d8;
+}
+
+.mainpage-head,
+.popular-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.popular-head {
+  margin: 50px 0;
+}
+
+.heading {
+  font-size: 26px;
+  color: #96bb36;
+  font-weight: bold;
+}
+
+.mainpage-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+}

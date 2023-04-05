@@ -1,0 +1,119 @@
+input {
+  background-color: transparent;
+  border: 2px solid #d8d8d8;
+  outline: none;
+  padding-left: 5px;
+  border-radius: 4px;
+  height: 30px;
+  width: 200px;
+  margin: 7px 0 15px 0;
+  font-size: 17px;
+  color: #626262;
+}
+.profileLine {
+  width: 87%;
+  height: 1px;
+  background-color: #d8d8d8;
+}
+
+.profile-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.profile-body {
+  display: flex;
+  padding: 45px 0;
+}
+
+.profile1 {
+  flex: 1;
+}
+
+.profile1 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.uploadAvatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeBtn,
+.recipe-uploadbtn {
+  height: 30px;
+  width: 200px;
+  background-color: transparent;
+  border: 2px solid #d8d8d8;
+  border-radius: 4px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.changeBtn {
+  margin-top: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.profile2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 5;
+}
+
+.profileUp1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.profileFlex1 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileFlex2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileUp2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  margin-top: 20px;
+}
+.profileUp2 button,
+.saveBtn {
+  padding: 10px 37px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #96bb36;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.description {
+  padding-top: 20px;
+}
+
+#photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #d8d8d8;
+}

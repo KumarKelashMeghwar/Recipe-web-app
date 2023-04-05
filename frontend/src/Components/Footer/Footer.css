@@ -1,0 +1,35 @@
+.Footer {
+  background-color: #626262;
+  margin-top: 20vh;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .image img {
+  width: 150px;
+  height: 50px;
+}
+
+.footer .footlinks ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footdot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #f8f7f2;
+  margin: 0 20px;
+}
+
+.copyright {
+  width: 130px;
+}

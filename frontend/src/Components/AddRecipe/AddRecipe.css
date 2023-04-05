@@ -1,0 +1,105 @@
+textarea,
+select {
+  background-color: transparent;
+  border: 2px solid #d8d8d8;
+  border-radius: 4px;
+  outline: none;
+  padding: 6px;
+  color: #a5a5a5;
+  margin: 7px 0 15px 0;
+}
+
+input {
+  color: #a5a5a5 !important;
+}
+
+.AddRecipe-body {
+  display: flex;
+  gap: 30px;
+  margin: 50px 0;
+  margin-bottom: 100px;
+}
+
+#RecipeTitle {
+  width: 100%;
+}
+
+.saveBtn {
+  width: 120px;
+  padding: 0 !important;
+  height: 35px;
+  display: grid;
+  place-items: center;
+}
+
+.recipeImage {
+  width: 150px;
+  height: 100px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.recipe-title {
+  color: #f0972a;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.recipe-uploadbtn {
+  width: 150px !important;
+  display: grid;
+  place-items: center;
+  margin: 0 !important;
+}
+
+.recipe-part1 {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+}
+
+.recipe-part2 {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  gap: 30px;
+}
+
+.flex_Part1,
+.flex_Part2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_Part1 {
+  flex: 2;
+}
+
+.flex_Part2 {
+  flex: 1;
+}
+
+.flex_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex_row div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flex_row div select,
+.flex_row div input {
+  width: 150px;
+  height: 30px;
+}
+
+.recipe_title,
+.recipe_desc {
+  display: flex;
+  flex-direction: column;
+}
